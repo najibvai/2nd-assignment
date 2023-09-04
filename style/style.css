@@ -20,6 +20,7 @@ nav {
     height: 130px;
     align-items: center;
 }
+
 nav .gamer {
     display: flex;
     align-items: center;
@@ -27,6 +28,16 @@ nav .gamer {
     margin-top: 44px;
     margin-left: 240px;
     margin-bottom: 37px;
+}
+
+.gamer-title {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.gamer-g-color {
+    color: #FF42A5;
 }
 
 nav ul {
@@ -42,7 +53,7 @@ nav a {
     text-decoration: none;
     color: #3C354F;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -56,4 +67,75 @@ nav .nav-icon {
     border-radius: 8px;
     background: #0B02231A;
     padding: 17px 24px;
+}
+
+/*----------------------- Banner Part Style---------------------- */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.banner-content {
+    /* background-image: url(../images/Group\ 14.png);
+    width: 901px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: bottom left, ; */
+}
+
+.banner-title-1 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-title-2 {
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-top: 0px;
+    margin-bottom: 17px;
+}
+
+.btn {
+    margin-top: 41px;
+
+}
+
+.sign-btn {
+    border-radius: 48px;
+    background: #FF42A5;
+    border: 0px;
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.go-btn {
+    border: 0px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 24px;
 }
