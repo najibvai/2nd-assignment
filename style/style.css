@@ -173,7 +173,7 @@ nav .nav-icon {
 
 .img-description {
     color: #534C64;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 500;
     margin-top: 24px;
 }
@@ -216,7 +216,7 @@ nav .nav-icon {
 .Play-Instantly-description {
     color: #534C64;
     text-align: right;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-top: 0px;
 }
@@ -255,7 +255,7 @@ nav .nav-icon {
 
 .games-title {
     color: #0B0223;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
@@ -287,7 +287,7 @@ nav .nav-icon {
 
 .footer-title {
     color: #FFF;
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -299,24 +299,50 @@ nav .nav-icon {
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin-top: 66px; 
+    margin-top: 66px;
     margin-bottom: 0px;
 }
-.footer-content .footer-about a{
+
+.footer-content .footer-about a {
     text-decoration: none;
     color: #FFF;
     list-style: none;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 600;
 }
-.footer-content .footer-icon{
+
+.footer-content .footer-icon {
     display: flex;
     justify-content: center;
     margin-top: 66px;
     gap: 40px;
+    margin-bottom: 0px;
 }
 
+.footer-content .terms-and-conditions ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 74px;
+    margin-bottom: 0px;
+    list-style: none;
+    gap: 60px;
+}
 
+.footer-content .terms-and-conditions a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-content .footer-description {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 28px;
+}
 
 
 
