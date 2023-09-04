@@ -139,3 +139,57 @@ nav .nav-icon {
     font-weight: 600;
     margin-left: 24px;
 }
+
+/* Online Games Funny Videos section */
+.online-games-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.online-games-color-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-games-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-left: 24px;
+}
+
+.card-img img {
+    border-radius: 16px;
+}
+
+
+
+
+/* ------------------------Response Section------------------------ */
+@media screen and (max-width:576px) {
+    .header {
+        padding: 50px;
+    }
+
+    nav,
+    nav ul,
+    .banner {
+        flex-direction: column;
+    }
+}
