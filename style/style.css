@@ -232,6 +232,44 @@ nav .nav-icon {
     right: 145px;
 }
 
+/* ----------------------------------------Multi Games Section------------------------------- */
+/* .multi-games-name .multi-games{
+    display: flex;
+} */
+.multi-games {
+    display: flex;
+    gap: 27px;
+    justify-content: center;
+    margin-bottom: 27px;
+
+}
+
+.multi-games .games {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 50px;
+    background: #ffffff;
+    padding: 15px;
+}
+
+.games-title {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.multi-games .games:hover {
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+}
+.multi-games .games .games-title:hover {
+    border-radius: 50px;
+    color: #FF42A5;
+}
+
+/* Footer Section Style */
+
 
 
 
