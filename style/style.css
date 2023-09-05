@@ -74,11 +74,19 @@ nav .nav-icon {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    margin-left: 240px;
+    /* margin-top: 20px; */
+    /* margin-left: 240px; */
     margin-right: 240px;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }
-
+.banner img{
+    margin-top: 20px;
+}
+.banner-content{
+    margin-left: 240px;
+}
 
 
 .banner-title-1 {
@@ -168,7 +176,6 @@ nav .nav-icon {
 
 .card-img .card:hover {
     border: 40px solid var #FF42A5;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),;
 }
 
 .card-img img {
@@ -358,13 +365,8 @@ nav .nav-icon {
 
 /* ------------------------Response Section------------------------ */
 @media screen and (max-width:576px) {
-    .header {
-        padding: 50px;
-    }
-
-    nav,
-    nav ul,
-    .banner {
+    .header ul {
         flex-direction: column;
-    }
+        align-items: center;
+}
 }
