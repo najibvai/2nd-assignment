@@ -91,7 +91,6 @@ nav .nav-icon {
 .banner-title-2 {
     font-size: 6rem;
     font-weight: 800;
-    text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -165,6 +164,11 @@ nav .nav-icon {
     display: flex;
     justify-content: center;
     gap: 24px;
+}
+
+.card-img .card:hover {
+    border: 40px solid var #FF42A5;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),;
 }
 
 .card-img img {
@@ -301,6 +305,7 @@ nav .nav-icon {
     gap: 60px;
     margin-top: 66px;
     margin-bottom: 0px;
+    list-style: none;
 }
 
 .footer-content .footer-about a {
