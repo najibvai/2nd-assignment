@@ -8,6 +8,9 @@ body {
     margin: 0px;
     padding: 0px;
 }
+.hide{
+    display: none;
+}
 
 /* ---------------Header Section Style----------------- */
 /* ----------------------Nav Ver--------------------- */
@@ -364,9 +367,6 @@ nav .nav-icon {
 
 
 /* ------------------------Response Section------------------------ */
-@media screen and (max-width:576px) {
-    .header ul {
-        flex-direction: column;
-        align-items: center;
-}
-}
+/* Add mobile-responsive styles here */
+
+
